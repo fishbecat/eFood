@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<title>eFood 美食餐廳</title>
+<meta name="description" content="eFood 美食餐廳的描述說明">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link href="css/phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:800px)">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:801px)">
+<!--[if lte IE 8]><link href="css/style.css" rel="stylesheet" type="text/css"><![endif]-->
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="css/slicknav.css">
+</head>
+
+<body>
+<!--[if lte IE 8]>
+<div class="tooOld">您正在使用 <strong>非常古老</strong> 的瀏覽器！強烈的建議 <a href="http://browsehappy.com/" target="_blank">更新您的瀏覽器</a> ，來改善您的上網體驗。</div>
+<![endif]-->
+<div id="header">
+  <div class="container">
+    <h1><a href="index.html" title="eFood 首頁" id="logo">eFood 美食</a></h1>
+    <div id="nav">
+      <ul><li><a href="about.html" title="關於我們">About us</a></li><li><a href="menu.html" title="餐飲目錄">Menu</a></li><li><a href="news.html" title="最新消息">News</a></li><li><a href="booking.html" title="線上訂位">Booking</a></li><li><a href="contact.html" title="聯絡我們">Contact us</a></li><li class="home"><a href="index.html" title="回首頁">Home</a></li></ul>
+    </div>
+  </div>
+  <div id="banner">
+    <ul class="bxslider">
+      <li><img src="img/banner01.jpg" alt="pic" /></li>
+      <li><img src="img/banner02.jpg" alt="pic" /></li>
+      <li><img src="img/banner03.jpg" alt="pic" /></li>
+      <li><img src="img/banner04.jpg" alt="pic" /></li>
+    </ul>
+  </div>
+</div>
+<div id="aboutUs">
+  <div class="container"> <img src="img/aboutusIcon.png" alt="icon">
+    <h2>A NEW GENERATION OF COOKING</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <p>Aspernatur, hic, a, inventore cumque totam aliquam voluptatem quas cupiditate</p>
+    <p>nobis modi dolor officiis quaerat fugiat quis at </p>
+    <p>error repellat? Optio, earum!</p>
+  </div>
+</div>
+<div id="content">
+  <div class="container">
+    <div class="clearfix"><img src="img/index1.jpg" alt="pic1" class="c2 floatLeft">
+      <div class="c1 floatRight" id="indexInfo1"> <img src="img/index1Icon.png" alt="icon">
+        <h2>vintage Oliva</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, voluptatibus, mollitia, veniam nobis</p>
+      </div>
+    </div>
+    <div class="clearfix"><img src="img/index2.jpg" alt="pic2" class="c2 floatRight">
+      <div class="c1 floatLeft" id="indexInfo2"> <img src="img/index2Icon.png" alt="icon">
+        <h2>La Boriosa</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, voluptatibus, mollitia, veniam nobis eveniet dignissimos eius quo corrupti error</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container clearfix">
+    <ul id="company">
+      <li>eFood Company</li>
+      <li>No.317, Sec. 2, Zhongxing Rd., </li>
+      <li>Dali Dist., Taichung City 412</li>
+      <li>info@efood.com</li>
+    </ul>
+    <a href="http://fishsaut.com" target="_blank" id="designer" title="魚躍創意">Designed by Fishsaut</a>
+    <ul id="social">
+      <li><a href="http://twitter.com" title="link to Twitter" target="_blank" class="twitter">twitter</a></li>
+      <li><a href="http://facebook.com/fishsaut/" title="link to Facebook" target="_blank" class="facebook">facebook</a></li>
+      <li><a href="http://pinterest.com" target="_blank" title="link to Pinterest" class="pinterest">pinterest</a></li>
+    </ul>
+  </div>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/jquery.bxslider.min.js"></script> 
+<script src="js/jquery.slicknav.min.js"></script> 
+<script>
+$(function(){
+	$('.bxslider').bxSlider({mode:'vertical',speed:1500,pause:6000,auto:true});
+	$('#nav ul').slicknav({label:''});
+});
+</script>
+</body>
+</html>

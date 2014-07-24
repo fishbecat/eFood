@@ -1,0 +1,325 @@
+@charset utf-8;
+#aboutUs {
+	background: #f7f7f7;
+	padding: 75px 0;
+	text-align: center;
+}
+#banner img {
+	width: 100%;
+}
+#bookingForm #send {
+	margin: 0 0 0 155px;
+}
+#bookingForm p {
+	margin: 10px;
+}
+#company {
+	color: #999;
+	float: left;
+	font-size: 14px;
+}
+#content {
+	background: #eee;
+}
+#designer {
+	background: url(../img/footerLogo.png);
+	float: right;
+	height: 36px;
+	margin: 14px 0 0;
+	text-indent: -9999px;
+	width: 135px;
+}
+#footer {
+	background: #f7f7f7;
+	height: 145px;
+	padding: 100px 0 0;
+}
+#indexInfo1 {
+	background: url(../img/index1Text.jpg);
+	height: 336px;
+	padding: 25px 0 0;
+	text-align: center;
+}
+#indexInfo2 {
+	background: url(../img/index2Text.jpg);
+	height: 336px;
+	padding: 25px 0 0;
+	text-align: center;
+}
+#logo {
+	background: url(../img/logo.png);
+	display: block;
+	height: 67px;
+	left: 32px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 32px;
+	transition: all .5s;
+	width: 67px;
+	z-index: 3000;
+}
+#logo:hover {
+	top: 27px;
+}
+#main {
+	padding: 30px 0;
+}
+#nav {
+	left: 200px;
+	position: absolute;
+	top: 50px;
+	width: 550px;
+	z-index: 3000;
+}
+#nav a {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	transition: all .5s;
+}
+#nav a:hover {
+	background: rgba(255,255,255,.5);
+	padding: 10px 30px;
+	text-shadow: 0 0 10px #FFF;
+}
+#nav li+li {
+	border-left: 1px dotted rgba(255,255,255,.5);
+}
+#nav li, #social li {
+	display: inline;
+}
+#social {
+	padding: 15px;
+	text-align: center;
+}
+#social a {
+	display: inline-block;
+	height: 34px;
+	text-indent: -9999px;
+	width: 35px;
+}
+.aboutImage {
+	bottom: 20px;
+	position: absolute;
+	right: 100px;
+}
+.aboutTitle {
+	background: url(../img/aboutTitle.png) no-repeat;
+	border-bottom: 1px solid #FFF;
+	height: 24px;
+	padding: 0 0 0 40px;
+}
+.bookingInfo li {
+	background: url(../img/bookingInfo.gif) no-repeat 10px 11px;
+	border-bottom: 1px dotted #CCC;
+	font-size: 16px;
+	padding: 5px 30px;
+}
+.bookingTitle {
+	background: url(../img/bookingTitle.png) no-repeat 0 0;
+	border-bottom: 1px solid #FFF;
+	height: 24px;
+	padding: 0 0 0 35px;
+}
+.c1 {
+	width: 320px;
+}
+.c1 p {
+	margin: 0 25px;
+}
+.c2 {
+	width: 640px;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+.contactContent {
+	background: #FFF url(../img/contactImage.png) no-repeat left center;
+	margin: 0 0 10px;
+	padding: 10px 10px 10px 420px;
+}
+.contactContent li {
+	margin: 5px;
+}
+.contactMap {
+	border: 5px solid #FFF;
+	height: 400px;
+	width: 950px;
+}
+.contactSubTitle {
+	color: #000;
+	display: inline-block;
+	width: 90px;
+}
+.contactSubTitle i {
+	color: #CCC;
+	font-size: 12px;
+}
+.contactTitle {
+	background: url(../img/contactTitle.png) no-repeat;
+	border-bottom: 1px solid #FFF;
+	height: 24px;
+	padding: 0 0 0 43px;
+}
+.container {
+	color: #666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: auto;
+	position: relative;
+	width: 960px;
+}
+.emText {
+	color: #000;
+	font-size: 120%;
+	margin: 0 5px;
+}
+.facebook {
+	background: url(../img/fb.png);
+}
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float: right;
+}
+.formGroup {
+	display: inline-block;
+	padding: 5px;
+}
+.m10 {
+	margin: 10px 0;
+}
+.menuImage {
+	bottom: -40px;
+	position: absolute;
+	right: -15px;
+}
+.menuTitle {
+	background: url(../img/menuTitle.png) no-repeat 0 -3px;
+	border-bottom: 1px solid #FFF;
+	height: 24px;
+	padding: 0 0 0 37px;
+}
+.newsList {
+	background: #FFF;
+	border-radius: 5px;
+	padding: 10px;
+}
+.newsList a {
+	background: url(../img/newsList.png) no-repeat 10px center;
+	border-bottom: 1px dotted #CCC;
+	color: #333;
+	display: block;
+	padding: 10px 40px;
+	transition: all .3s;
+}
+.newsList a:hover {
+	background: #EEE url(../img/newsList.png) no-repeat 15px center;
+	color: #000;
+	padding: 20px 50px;
+}
+.newsTitle {
+	background: url(../img/newsTitle.png) no-repeat 0 -2px;
+	border-bottom: 1px solid #FFF;
+	height: 24px;
+	padding: 0 0 0 37px;
+}
+.photoTitle {
+	background: rgba(0,0,0,.5);
+	bottom: 10px;
+	color: #FFF;
+	display: block;
+	font-size: 12px;
+	left: 0;
+	opacity: 0;
+	padding: 10px 0;
+	position: absolute;
+	text-align: center;
+	transition: all .3s;
+	width: 160px;
+}
+.photos li {
+	border: 5px solid #eee;
+	float: left;
+	margin: 5px;
+	position: relative;
+	transition: all .3s;
+	width: 160px;
+}
+.photos li:hover {
+	border: 5px solid #666;
+}
+.pinterest {
+	background: url(../img/pin.png);
+}
+.slicknav_menu, #nav .home {
+	display: none;
+}
+.tooOld {
+	background: red;
+	color: #fff;
+	padding: 40px;
+	text-align: center;
+}
+.twitter {
+	background: url(../img/t.png);
+}
+:focus {
+	outline: 0;
+}
+a:hover .photoTitle {
+	opacity: 1;
+	padding: 30px 0;
+}
+caption {
+	color: #000;
+	margin: 10px 0;
+}
+h2 {
+	color: #000;
+	font-size: 18px;
+	margin: 10px 0;
+}
+input[type=submit], input[type=reset] {
+	background: #FFF;
+	border: 2px solid #CCC;
+	border-radius: 20px;
+	color: #666;
+	font-size: 12px;
+	padding: 5px 20px;
+}
+input[type=text], textarea, select {
+	box-sizing: border-box;
+	padding: 5px;
+	width: 650px;
+}
+label[for] {
+	color: #999;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	padding: 5px;
+	text-align: right;
+	vertical-align: top;
+	width: 130px;
+}
+p {
+	font-size: 14px;
+	line-height: 1.3em;
+}
+table, td, th {
+	border: 1px solid #CCC;
+	color: #999;
+	font-size: 14px;
+}
+td, th {
+	padding: 8px;
+}
+th {
+	background: #EEE;
+	color: #333;
+}

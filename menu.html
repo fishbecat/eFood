@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<title>餐飲目錄 - eFood 美食餐廳</title>
+<meta name="description" content="以盛宴款待賓客，是為饗宴。主人滿懷熱情，誠懇款備佳肴，招待座上貴賓。">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link href="css/phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:800px)">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:801px)">
+<!--[if lte IE 8]><link href="css/style.css" rel="stylesheet" type="text/css"><![endif]-->
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="css/slicknav.css">
+<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+<link rel="stylesheet" type="text/css" href="js/jquery-ui/jquery-ui.css">
+</head>
+
+<body>
+<!--[if lte IE 8]>
+<div class="tooOld">您正在使用 <strong>非常古老</strong> 的瀏覽器！強烈的建議 <a href="http://browsehappy.com/" target="_blank">更新您的瀏覽器</a> ，來改善您的上網體驗。</div>
+<![endif]-->
+<div id="header">
+  <div class="container">
+    <h1><a href="index.html" title="eFood 首頁" id="logo">eFood 美食</a></h1>
+    <div id="nav">
+      <ul><li><a href="about.html" title="關於我們">About us</a></li><li><a href="menu.html" title="餐飲目錄">Menu</a></li><li><a href="news.html" title="最新消息">News</a></li><li><a href="booking.html" title="線上訂位">Booking</a></li><li><a href="contact.html" title="聯絡我們">Contact us</a></li><li class="home"><a href="index.html" title="回首頁">Home</a></li></ul>
+    </div>
+  </div>
+  <div id="banner">
+    <ul class="bxslider">
+      <li><img src="img/banner01.jpg" alt="pic" /></li>
+      <li><img src="img/banner02.jpg" alt="pic" /></li>
+      <li><img src="img/banner03.jpg" alt="pic" /></li>
+      <li><img src="img/banner04.jpg" alt="pic" /></li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+  <div class="container" id="main">
+    <h2 class="menuTitle">餐飲目錄</h2>
+    <div id="tabs">
+      <ul>
+        <li><a href="#menus">目錄</a></li>
+        <li><a href="#price">價目表</a></li>
+      </ul>
+      <div id="menus">
+        <ul class="photos clearfix">
+          <li><a href="img/b/001.jpg" data-lightbox="foodPhotos" title="草莓香草蛋糕"><img src="img/s/001.jpg" alt="pic"><span class="photoTitle">草莓香草蛋糕</span></a></li>
+          <li><a href="img/b/002.jpg" data-lightbox="foodPhotos" title="綜合生魚片"><img src="img/s/002.jpg" alt="pic"><span class="photoTitle">綜合生魚片</span></a></li>
+          <li><a href="img/b/003.jpg" data-lightbox="foodPhotos" title="紐約克牛排"><img src="img/s/003.jpg" alt="pic"><span class="photoTitle">紐約克牛排</span></a></li>
+          <li><a href="img/b/004.jpg" data-lightbox="foodPhotos" title="法式下午茶"><img src="img/s/004.jpg" alt="pic"><span class="photoTitle">法式下午茶</span></a></li>
+          <li><a href="img/b/005.jpg" data-lightbox="foodPhotos" title="特級牛小排"><img src="img/s/005.jpg" alt="pic"><span class="photoTitle">特級牛小排</span></a></li>
+          <li><a href="img/b/006.jpg" data-lightbox="foodPhotos" title="壽司"><img src="img/s/006.jpg" alt="pic"><span class="photoTitle">壽司</span></a></li>
+          <li><a href="img/b/007.jpg" data-lightbox="foodPhotos" title="草莓香草蛋糕"><img src="img/s/007.jpg" alt="pic"><span class="photoTitle">草莓香草蛋糕</span></a></li>
+          <li><a href="img/b/008.jpg" data-lightbox="foodPhotos" title="綜合生魚片"><img src="img/s/008.jpg" alt="pic"><span class="photoTitle">綜合生魚片</span></a></li>
+          <li><a href="img/b/009.jpg" data-lightbox="foodPhotos" title="紐約克牛排"><img src="img/s/009.jpg" alt="pic"><span class="photoTitle">紐約克牛排</span></a></li>
+          <li><a href="img/b/010.jpg" data-lightbox="foodPhotos" title="法式下午茶"><img src="img/s/010.jpg" alt="pic"><span class="photoTitle">法式下午茶</span></a></li>
+          <li><a href="img/b/011.jpg" data-lightbox="foodPhotos" title="特級牛小排"><img src="img/s/011.jpg" alt="pic"><span class="photoTitle">特級牛小排</span></a></li>
+          <li><a href="img/b/012.jpg" data-lightbox="foodPhotos" title="壽司"><img src="img/s/012.jpg" alt="pic"><span class="photoTitle">壽司</span></a></li>
+        </ul>
+      </div>
+      <div id="price">
+        <table>
+          <caption>
+          餐飲營業時間價目表
+          </caption>
+          <tr>
+            <th scope="col">餐別</th>
+            <th scope="col">料理</th>
+            <th scope="col">營業時間</th>
+            <th scope="col">價格</th>
+          </tr>
+          <tr>
+            <td>早餐</td>
+            <td>自助早餐</td>
+            <td>07：00－10：30</td>
+            <td>大人收費<span class="emText">420</span>元/客<br>
+              兒童收費<span class="emText">290</span>元/客</td>
+          </tr>
+          <tr>
+            <td>午餐</td>
+            <td>自助午餐</td>
+            <td>11：30－14：00</td>
+            <td>大人收費<span class="emText">600</span>元/客<br>
+              兒童收費<span class="emText">420</span>元/客</td>
+          </tr>
+          <tr>
+            <td>下午茶</td>
+            <td>自助下午茶</td>
+            <td>14：30－16：30</td>
+            <td>大人收費<span class="emText">420</span>元/客<br>
+              兒童收費<span class="emText">290</span>元/客</td>
+          </tr>
+          <tr>
+            <td>晚餐</td>
+            <td>自助晚餐</td>
+            <td>17：30－21：30</td>
+            <td>大人收費<span class="emText">800</span>元/客<br>
+              兒童收費<span class="emText">560</span>元/客</td>
+          </tr>
+        </table>
+        <img src="img/menuFIFA.png" alt="FIFA" class="menuImage">
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container clearfix">
+    <ul id="company">
+      <li>eFood Company</li>
+      <li>No.317, Sec. 2, Zhongxing Rd., </li>
+      <li>Dali Dist., Taichung City 412</li>
+      <li>info@efood.com</li>
+    </ul>
+    <a href="http://fishsaut.com" target="_blank" id="designer" title="魚躍創意">Designed by Fishsaut</a>
+    <ul id="social">
+      <li><a href="http://twitter.com" title="link to Twitter" target="_blank" class="twitter">twitter</a></li>
+      <li><a href="http://facebook.com/fishsaut/" title="link to Facebook" target="_blank" class="facebook">facebook</a></li>
+      <li><a href="http://pinterest.com" target="_blank" title="link to Pinterest" class="pinterest">pinterest</a></li>
+    </ul>
+  </div>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/jquery.bxslider.min.js"></script> 
+<script src="js/jquery.slicknav.min.js"></script> 
+<script src="js/jquery-ui/jquery-ui.min.js"></script> 
+<script src="js/lightbox.min.js"></script> 
+<script>
+$(function(){
+	$('.bxslider').bxSlider({mode:'vertical',speed:1500,pause:6000,auto:true});
+	$('#nav ul').slicknav({label:''});
+	$('#tabs').tabs();
+});
+</script>
+</body>
+</html>

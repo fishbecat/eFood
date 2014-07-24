@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<title>關於我們 - eFood 美食餐廳</title>
+<meta name="description" content="以盛宴款待賓客，是為饗宴。主人滿懷熱情，誠懇款備佳肴，招待座上貴賓。">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link href="css/phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:800px)">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:801px)">
+<!--[if lte IE 8]><link href="css/style.css" rel="stylesheet" type="text/css"><![endif]-->
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="css/slicknav.css">
+</head>
+
+<body>
+<!--[if lte IE 8]>
+<div class="tooOld">您正在使用 <strong>非常古老</strong> 的瀏覽器！強烈的建議 <a href="http://browsehappy.com/" target="_blank">更新您的瀏覽器</a> ，來改善您的上網體驗。</div>
+<![endif]-->
+<div id="header">
+  <div class="container">
+    <h1><a href="index.html" title="eFood 首頁" id="logo">eFood 美食</a></h1>
+    <div id="nav">
+      <ul><li><a href="about.html" title="關於我們">About us</a></li><li><a href="menu.html" title="餐飲目錄">Menu</a></li><li><a href="news.html" title="最新消息">News</a></li><li><a href="booking.html" title="線上訂位">Booking</a></li><li><a href="contact.html" title="聯絡我們">Contact us</a></li><li class="home"><a href="index.html" title="回首頁">Home</a></li></ul>
+    </div>
+  </div>
+  <div id="banner">
+    <ul class="bxslider">
+      <li><img src="img/banner01.jpg" alt="pic" /></li>
+      <li><img src="img/banner02.jpg" alt="pic" /></li>
+      <li><img src="img/banner03.jpg" alt="pic" /></li>
+      <li><img src="img/banner04.jpg" alt="pic" /></li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+  <div class="container" id="main">
+    <h2 class="aboutTitle">關於我們</h2>
+    <img src="img/about1.jpg" alt="關於我們圖片1" class="floatRight">
+    <p>以盛宴款待賓客，是為饗宴。</p>
+    <p>主人滿懷熱情，誠懇款備佳肴，招待座上貴賓；</p>
+    <p>客人欣然赴會，飽食愉悅、五感暢快，大家一道同享歡欣。</p>
+    <p>一張桌子，於是開啟了雙向互動的共享樂，</p>
+    <p>桌上有主人用心的快樂，桌上也有客人盡興的快樂，</p>
+    <p>同時，這張桌子上還盛著食材、料理、服務的快樂，</p>
+    <p>甚至，還有對飲食文化之經營堅持的快樂。</p>
+    <p>饗宴，本就是多重歡悅的交流集合。</p>
+    <p>一場饗宴，但求賓主盡歡。這正是饗賓餐旅事業的開端。</p>
+    <img src="img/about2.jpg" alt="關於我們圖片2" class="m10">
+    <img src="img/aboutFIFA.png" alt="關於我們圖片3" class="aboutImage">
+  </div>
+</div>
+<div id="footer">
+  <div class="container clearfix">
+    <ul id="company">
+      <li>eFood Company</li>
+      <li>No.317, Sec. 2, Zhongxing Rd., </li>
+      <li>Dali Dist., Taichung City 412</li>
+      <li>info@efood.com</li>
+    </ul>
+    <a href="http://fishsaut.com" target="_blank" id="designer" title="魚躍創意">Designed by Fishsaut</a>
+    <ul id="social">
+      <li><a href="http://twitter.com" title="link to Twitter" target="_blank" class="twitter">twitter</a></li>
+      <li><a href="http://facebook.com/fishsaut/" title="link to Facebook" target="_blank" class="facebook">facebook</a></li>
+      <li><a href="http://pinterest.com" target="_blank" title="link to Pinterest" class="pinterest">pinterest</a></li>
+    </ul>
+  </div>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/jquery.bxslider.min.js"></script> 
+<script src="js/jquery.slicknav.min.js"></script> 
+<script>
+$(function(){
+	$('.bxslider').bxSlider({mode:'vertical',speed:1500,pause:6000,auto:true});
+	$('#nav ul').slicknav({label:''});
+});
+</script>
+</body>
+</html>
